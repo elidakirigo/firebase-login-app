@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,16 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <form>
-    <div id="login_div" class="main_div">
-        <h3>firebase web login Example</h3>
-        <input type="email" name="email" placeholder="Email..." id="email_field"/>
-        <input type="password" name="pass" placeholder="password..." id="password_field"/>
+        <div id="login_div" class="main_div">
+            <h3>firebase web login Example</h3>
+            <input type="email" name="email" placeholder="Email..." id="email_field" />
+            <input type="password" name="pass" placeholder="password..." id="password_field" />
 
-        <button type="submit" onclick="login()">login to Account</button>
-    </div>
+            <button type="submit" onclick="login()">login to Account</button>
+        </div>
     </form>
     <div id="user_div" class="loggedIn_div">
         <h3>welcome user</h3>
@@ -23,16 +25,17 @@
         <button>logout</button>
     </div>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
-   
-    
+
+
     <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js"></script>
-    
+
     <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-firestore.js"></script>
-    
+
     <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-auth.js"></script>
-    
+
     <script src="js/firebase.js"></script>
-    
+
     <script src="js/index.js"></script>
 </body>
+
 </html>
