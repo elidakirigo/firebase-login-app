@@ -17,6 +17,18 @@
             <input type="password" name="pass" placeholder="password..." id="password_field" />
 
             <button type="submit" onclick="login()">login to Account</button>
+            <span onclick="hideForm(1)">or sign up</span>
+        </div>
+    </form>
+    <form>
+        <div id="signup_div" class="main_div">
+            <h3>firebase web signup Example</h3>
+            <input type="email" name="email" placeholder="Email..." id="email_field" />
+            <input type="password" name="pass" placeholder="password..." id="password_field" />
+
+            <button type="submit" onclick="signup()">signup to Account</button>
+            <span onclick="hideForm(0)">back to login</span>
+
         </div>
     </form>
     <div id="user_div" class="loggedIn_div">
@@ -24,8 +36,6 @@
         <p>welcome to firebase web login example. You're currentlty logged in</p>
         <button>logout</button>
     </div>
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-
 
     <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js"></script>
 
