@@ -36,6 +36,7 @@ button {
     margin: 0px auto;
     margin-top: 150px;
     padding: 20px;
+    display: none;
 }
 
 .main_div input {
@@ -50,7 +51,7 @@ button {
 }
 
 .main_div input:focus {
-    border: 1px solid #999999;
+    border: 1px solid #5daffc;
 }
 
 .main_div button,
